@@ -1,0 +1,23 @@
+{
+    "name": "pxt-calliope-modem",
+    "version": "1.0.0",
+    "description": "Modem AT Functions",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "modem.ts",
+        "ext_serial.cpp",
+        "ext_serial.ts"
+    ],
+    "testFiles": [
+        "tests.ts"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/calliope-mini/pxt-calliope-modem.git"
+    },
+    "public": true
+}
