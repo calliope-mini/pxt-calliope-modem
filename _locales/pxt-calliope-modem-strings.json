@@ -1,15 +1,15 @@
 {
-  "modem.enableDebug|block": "zeige AT Kommandos %debug",
-  "modem.expectOK|block": "sende AT Kommando %command|Resultat OK?",
-  "modem.init|block": "initialisiere Modem|TX %tx|RX %rx|mit Baudrate %rate",
-  "modem.pushAT|block": "sende AT %command",
-  "modem.receiveResponse|block": "warte auf Antwort %cond",
-  "modem.sendAT|block": "sende AT %command und empfange",
-  "modem.setATPrefix|block": "setze AT Prefix %prefix",
-  "modem|block": "Modem",
-  "serial.resetSerial|block": "seriellen Port zurücksetzen",
-  "serial.setReceiveBufferSize|block": "setze Empfangspuffergrösse %size",
-  "serial|block": "seriell",
+  "modem.enableDebug|block": "enable DEBUG %debug",
+  "modem.expectOK|block": "check AT %command|response OK?",
+  "modem.init|block": "initialize Modem|TX %tx|RX %rx|at baud rate %rate",
+  "modem.pushAT|block": "send AT %command",
+  "modem.receiveResponse|block": "wait for response %cond",
+  "modem.sendAT|block": "send AT %command and receive",
+  "modem.setATPrefix|block": "set AT prefix %prefix",
+  "modem|block": "modem",
+  "serial.resetSerial|block": "serial reset",
+  "serial.setReceiveBufferSize|block": "serial receive buffer size %size",
+  "serial|block": "serial",
   "{id:category}Modem": "Modem",
-  "{id:category}Serial": "Seriell"
+  "{id:category}Serial": "Serial"
 }

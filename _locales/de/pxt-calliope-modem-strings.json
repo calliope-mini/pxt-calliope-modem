@@ -1,0 +1,15 @@
+{
+  "modem.enableDebug|block": "zeige AT Kommandos %debug",
+  "modem.expectOK|block": "sende AT Kommando %command|Resultat OK?",
+  "modem.init|block": "initialisiere Modem|TX %tx|RX %rx|mit Baudrate %rate",
+  "modem.pushAT|block": "sende AT %command",
+  "modem.receiveResponse|block": "warte auf Antwort %cond",
+  "modem.sendAT|block": "sende AT %command und empfange",
+  "modem.setATPrefix|block": "setze AT prefix auf %prefix",
+  "modem|block": "Modem",
+  "serial.resetSerial|block": "seriellen Port zurücksetzen",
+  "serial.setReceiveBufferSize|block": "setze Empfangspuffergrösse %size",
+  "serial|block": "Seriell",
+  "{id:category}Modem": "Modem",
+  "{id:category}Serial": "Seriell"
+}

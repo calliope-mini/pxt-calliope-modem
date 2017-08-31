@@ -10,7 +10,9 @@
         "README.md",
         "modem.ts",
         "ext_serial.cpp",
-        "ext_serial.ts"
+        "ext_serial.ts",
+        "_locales/de/pxt-calliope-modem-jsdoc-strings.json",
+        "_locales/de/pxt-calliope-modem-strings.json"
     ],
     "testFiles": [
         "tests.ts"
